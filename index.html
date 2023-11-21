@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700&display=swap&subset=latin-ext" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps:400,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/iconos.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://kit.fontawesome.com/be4d61fb03.js" crossorigin="anonymous"></script>
+    <title>INDACO</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <label class="logo">INDACO</label>
+            <label id="icon">
+                <i class="fas fa-bars"></i>
+            </label>
+            <ul>
+                <li><a class="active" href="#">Inicio</a></li>
+                <li><a href="#about">Acerca de</a></li>
+                <li><a href="#producto">Producto</a></li>
+                <li><a href="#portafolio">Galeria</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+            </ul>
+        </nav>
+        
+        <section class="textos-header">
+            <h1 class="animate__animated animate__fadeInDownBig">FABRICA DE ESTUCO INDACO</h1>
+            <h3 class="animate__animated animate__pulse animate__infinite">Enlucidos de Calidad</h3>
+            <div class="wave" style="height: 150px; overflow: hidden; position: relative;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #f2f2f2;"></path></svg></div>
+        </section>
+    </header>
+    <main>
+        <a href="#" class="icon-up animate__animated animate__backInRight"><i class="fas fa-angle-up"></i></a>
+        <a href="https://api.whatsapp.com/send?phone=+59179765221" class="icon-wsp animate__animated animate__pulse animate__infinite" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <!-- <a href="#" class="btn-up"><img src="/img/subir.png" alt=""></a> -->
+
+        <section id="about" class="contenedor sobre-nosotros" data-aos="fade-left">
+            <h2 class="titulo">¿Quienes somos?</h2>
+            <div class="contenedor-sobre-nosotros">
+                <img src="img/fondo2.jpg" alt="Fábrica Indaco">
+                <div class="contenido-textos">
+                    <h3><span>1</span>INDACO</h3>
+                    <p>Somos una fabrica que opera desde 1990 en la Ciudad de Cochabamba - Sipe Sipe, sector Montenegro Central, fundado por el Sr. Indalecio Severiche Saavedra quien hasta dia de hoy nos lidera. Ofrecemos Yeso/estuco para el acabado en obra fina de su construccion como tambien ferreterias en general.
+                    </p>
+                    <h3><span>2</span>El mejor producto</h3>
+                    <p>Debido a la calidad de nuestro producto a lo largo de los años hemos podido manternos firme, logrando que nuestros clientes estes satisfechos una vez culminado su construcción.</p>
+                </div>
+            </div>
+        </section>
+        <section id="producto" class="producto contenedor" data-aos="fade-right">
+            <h2 class="titulo">Nuestros Productos</h2>
+            <div class="cards">
+                <div class="card">
+                    <h4>Bolsa Normal 25kg</h4>
+                    <img src="img/InkedIMG_20210119_083518_LI.jpg" alt="">
+                    <div class="contenido-texto-card">
+                        <!-- <button>Bolsa Normal</br>Peso exacto 25kg.</button> -->
+                        <button>Solicitar</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <h4>Bolsa Quintal 35kg</h4>
+                    <img src="img/InkedIMG_20210119_083518_LI.jpg" alt="">
+                    <div class="contenido-texto-card">
+                        <button>Solicitar</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <h4>Bolsa Oruro 20kg</h4>
+                    <img src="img/InkedIMG_20210119_083518_LI.jpg" alt="">
+                    <div class="contenido-texto-card">
+                        <button>Solicitar</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="overlay">
+            <div class="slideshow">
+                <span class="btn-cerrar">&times;</span>
+                <div class="botones atras">
+                    <i class="mdi fas fa-arrow-circle-left"></i>
+                </div>
+                <div class="botones adelante">
+                    <i class="mdi fas fa-arrow-circle-right"></i>
+                </div>
+                <img src="" alt="" id="img-slideshow">
+            </div>
+        </div>
+        <section id="portafolio" class="portafolio" data-aos="fade-right">
+            <div class="contenedor">
+                <h2 class="titulo">Nuestras Entregas</h2>
+                <div class="galeria-port">
+                    <div class="imagen-port">
+                        <img src="img/15.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/icono.png" alt="">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/21.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/icono.png" alt="">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/10.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/icono.png" alt="">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/17.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/icono.png" alt="">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/13.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/icono.png" alt="">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/20.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/icono.png" alt="">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/4.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/icono.png" alt="">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/14.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/icono.png" alt="">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="servicios" class="about-services" data-aos="fade-right">
+            <div class="contenedor">
+                <h2 class="titulo">Nuestros servicios</h2>
+                <div class="servicio-cont">
+                    <div class="servicio-ind">
+                        <img src="img/local.jpg" alt="">
+                        <h3>Local</h3>
+                        <p>Entregamos puesto en la obra, construcción o ferrertería.</p>
+                    </div>
+                    <div class="servicio-ind">
+                        <img src="img/19.jpg" alt="">
+                        <h3>Departamental</h3>
+                        <p>Entregamos en los departamentos de Santa Cruz y Oruro previa coordinación.</p>
+                    </div>
+                    <div class="servicio-ind">
+                        <img src="img/fabrica.jpg" alt="">
+                        <h3>En Fábrica</h3>
+                        <p>Puede venir con su transporte y comprar directamente desde la Fábrica a menor precio.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div id="contacto" class="contenedor-footer" data-aos="fade-up">
+            <div class="content-foo">
+                <h4>Phone</h4>
+                <p>79765221</p>
+            </div>
+            <div class="content-foo">
+                <h4>Email</h4>
+                <p>indaco@gmail.net</p>
+            </div>
+            <div class="content-foo">
+                <h4>Location</h4>
+                <p>Av. Confital Km 23 1/2</p>
+            </div>
+        </div>
+        <h2 class="titulo-final">&copy; Mauricio Severiche | Srl.</h2>
+    </footer>
+    <script src="js/script-app.js"></script>
+</body>
+</html>
